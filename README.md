@@ -1,7 +1,7 @@
 Welcome to Your Credit Ease Loan Project
 Project Info
 GitHub URL: https://github.com/Inam13327/credit-ease-loan
-Live Deployment: monthlyloan.netlify.com
+Live Deployment: monthlyloan.netlify.app
 
 How Can I Edit This Code?
 There are several ways to edit your application.
