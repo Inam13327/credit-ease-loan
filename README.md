@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+Welcome to Your Credit Ease Loan Project
+Project Info
+GitHub URL: https://github.com/Inam13327/credit-ease-loan
+Live Deployment: monthlyloan.netlify.com
 
-## Project info
+How Can I Edit This Code?
+There are several ways to edit your application.
 
-**URL**: https://lovable.dev/projects/0c501c13-ef37-4243-8c4c-e2d39601ac70
+Option 1 – Edit Locally in Your Preferred IDE
+If you want to work locally using VS Code or another IDE:
 
-## How can I edit this code?
+Clone the Repository
 
-There are several ways of editing your application.
+sh
+Copy
+Edit
+git clone https://github.com/Inam13327/credit-ease-loan.git
+Navigate to the Project Directory
 
-**Use Lovable**
+sh
+Copy
+Edit
+cd credit-ease-loan
+Install Dependencies
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0c501c13-ef37-4243-8c4c-e2d39601ac70) and start prompting.
+sh
+Copy
+Edit
+npm install
+Start the Development Server
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+sh
+Copy
+Edit
 npm run dev
-```
+This will launch the app with hot-reload in your browser.
 
-**Edit a file directly in GitHub**
+Option 2 – Edit Directly on GitHub
+Open the repo on GitHub.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Navigate to the file you want to change.
 
-**Use GitHub Codespaces**
+Click the Edit (pencil) icon.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Make changes, scroll down, and commit.
 
-## What technologies are used for this project?
+Option 3 – Use GitHub Codespaces
+On the repo page, click the green Code button.
 
+Go to the Codespaces tab.
+
+Click New Codespace to open an online development environment.
+
+Edit, commit, and push directly from the browser.
+
+What Technologies Are Used?
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Vite – Fast frontend build tool
 
-## How can I deploy this project?
+TypeScript – Strongly typed JavaScript
 
-Simply open [Lovable](https://lovable.dev/projects/0c501c13-ef37-4243-8c4c-e2d39601ac70) and click on Share -> Publish.
+React – UI library for building components
 
-## Can I connect a custom domain to my Lovable project?
+shadcn-ui – Prebuilt styled components
 
-Yes, you can!
+Tailwind CSS – Utility-first CSS framework
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+How to Deploy This Project
+Deploy to Netlify (recommended):
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Create a Netlify account at https://netlify.com
+
+Connect your GitHub repo.
+
+Select the main branch.
+
+Set the build command to:
+
+arduino
+Copy
+Edit
+npm run build
+and publish directory to:
+
+nginx
+Copy
+Edit
+dist
+Custom Domain
+
+In Netlify settings, go to Domain Management.
+
+Add your domain and follow DNS setup instructions.
+
+How to Push Changes to GitHub
+Whenever you make updates locally:
+
+sh
+Copy
+Edit
+git add .
+git commit -m "Describe your changes here"
+git push origin main
